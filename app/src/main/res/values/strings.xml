@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Meetup Notifications</string>
+    <string name="title">Upcoming Event</string>
+    <string name="event_name_hint">ExoPlayer 2.0 and Brushing Up on Lint</string>
+    <string name="event_date_time">4/19 6:30pm </string>
+</resources>
