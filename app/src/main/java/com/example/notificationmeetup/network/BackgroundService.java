@@ -24,7 +24,14 @@ import retrofit2.Retrofit;
  * Created by meltemyildirim on 4/18/17.
  */
 
+/**
+ * BackgroundService is the class that we pull events from meetup api.
+ */
+
 public class BackgroundService extends Service {
+    /**
+     * @ events is list of events that user signup
+     */
     private List<Event> events;
     private Context context;
 
@@ -47,7 +54,7 @@ public class BackgroundService extends Service {
                 while (true) {
                     try {
                         apiConnection();
-                        Thread.sleep(((1000 * 60) * 60) * 2);
+                        Thread.sleep(((1000 * 60) * 60) * 2);// It will check api every 2 hours to se if there is any event coming up
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
