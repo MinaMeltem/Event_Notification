@@ -6,12 +6,14 @@ package com.example.notificationmeetup.model;
 
 
 /**
- * This is data model that correspond fields in Api endpoint which is self/events
+ * This is data model class that corresponds fields in meetup Api endpoint, which is self/events
  */
 public class Event {
+
     private String name;
     private long time;
     private String link;
+
 
     public String getName() {
         return name;

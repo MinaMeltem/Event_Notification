@@ -10,6 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
  * Implementation for retrofit connection
+ * Instantiating the Retrofit instance
  */
 public class ApiClient {
     public static final String BASE_URL = "http://api.meetup.com/";

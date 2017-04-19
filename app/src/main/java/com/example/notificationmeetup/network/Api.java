@@ -14,10 +14,11 @@ import retrofit2.http.Query;
 
 
 /**
- * This is Api connection interface
+ * This is where we do Request by specifying meetup api key
  */
 
 public interface Api {
+
     @GET("self/events")
     Call<List<Event>> getEvents(@Query("key") String key);
 }
